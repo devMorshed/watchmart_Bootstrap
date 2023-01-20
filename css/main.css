@@ -1,0 +1,19 @@
+.wm-bg-gradient{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,0.976905311778291) 22%, rgba(121,9,9,0.8614318706697459) 64%, rgba(255,148,0,1) 100%);
+}
+
+.wm-bg-blue{
+  background-color: #080629 !important;
+}
+
+.wm-bg-red{
+  background-color: #6c282c !important;
+}
+
+
+.wm-bg-yellow{
+  background-color: #fc9404 !important;
+}
+
+
