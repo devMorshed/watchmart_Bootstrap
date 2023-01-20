@@ -16,4 +16,11 @@
   background-color: #fc9404 !important;
 }
 
+.rating-box{
+  width: 20px;
+}
 
+.wm-c-bg{
+  background: rgba(0, 0, 0, 0.356) !important;
+  color: white !important;
+}

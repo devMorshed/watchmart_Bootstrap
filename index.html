@@ -13,7 +13,7 @@
 <body>
 
   <header class="header">
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navi navbar-expand-lg bg-light sticky-top">
       <div class="container">
 
         <div class="brand">
@@ -28,16 +28,19 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav ms-auto me-5">
             <li class="nav-item  ">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item  ">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#home">About</a>
             </li>
             <li class="nav-item  ">
-              <a class="nav-link" href="#">Shop</a>
+              <a class="nav-link" href="#shop">Shop</a>
             </li>
             <li class="nav-item  ">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item  ">
+              <a class="nav-link" href="#discount">Discont</a>
             </li>
           </ul>
         </div>
@@ -52,7 +55,7 @@
 
     <!-- hero section -->
 
-    <div class="hero my-3 d-block">
+    <div id="home" class="hero my-3 d-block">
       <div class="container wm-bg-gradient py-5 rounded-3 text-white">
         <div class="row p-4 text-center text-sm-start align-items-center">
           <!-- hero text -->
@@ -80,26 +83,27 @@
 
   <main>
     <!-- popular brands section -->
+
     <section class="brands my-5" >
       <div class="container py-5 bg-light rounded-3">
         <h3 class="mb-3 section-heading display-6 fw-semibold text-center">Popular Brands</h3>
 
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
+        <div class="my-3 row row-cols-1 row-cols-md-2 row-cols-xl-3 g-5">
 
 <!-- you have to leave col alone XD, no touching him!!  -->
 
 <!-- brand one -->
 
           <div class="col">
-            <div class="row wm-bg-blue p-3 rounded-3 text-white align-items-center text-center text-md-start">
+            <div class="row wm-bg-red p-3 rounded-3 text-white align-items-center text-center text-md-start">
               <!-- brand  img -->
-              <div class="col-12 col-lg-4 my-3">
+              <div class="col-12 col-xl-4 my-3">
                 <img src="./assets/xiaomi.png" alt="" class="img-fluid">
               </div>
 
               <!-- brands info -->
 
-              <div class="col-12 col-lg-8">
+              <div class="col-12 col-xl-8">
                 <h4 class="fs-4">Xiaomi Brands</h4>
                 <p class="my-3">Not as smart as the Galaxy Watches or Apple Watches of this world but for what it is and is capable of, it is a pretty solid device.</p>
               </div>
@@ -109,15 +113,15 @@
 
 <!-- brand two -->
           <div class="col">
-            <div class="row wm-bg-red p-3 rounded-3 text-white align-items-center text-center text-md-start">
+            <div class="row wm-bg-yellow p-3 rounded-3 text-white align-items-center text-center text-md-start">
               <!-- brand  img -->
-              <div class="col-12 col-lg-4 my-3">
-                <img src="./assets/oppo.png" alt="" class="img-fluid">
+              <div class="col-12 col-xl-4 my-3">
+                <img src="./assets/0pp0.png" alt="" class="img-fluid">
               </div>
 
               <!-- brands info -->
 
-              <div class="col-12 col-lg-8">
+              <div class="col-12 col-xl-8">
                 <h4 class="fs-4">Oppo Brands</h4>
                 <p class="my-3">OPPO Watch helps you get a strong sense of your workouts with real-time fitness tracking from Google Fit Lorem ipsum dolor sit amet.</p>
               </div>
@@ -126,15 +130,15 @@
 
 <!-- brand three -->
           <div class="col">
-            <div class="row wm-bg-yellow p-3 rounded-3 text-white align-items-center text-center text-md-start">
+            <div class="row wm-bg-blue p-3 rounded-3 text-white align-items-center text-center text-md-start">
               <!-- brand  img -->
-              <div class="col-12 col-lg-4 my-3">
+              <div class="col-12 col-xl-4 my-3">
                 <img src="./assets/wm-6.png" alt="" class="img-fluid">
               </div>
 
               <!-- brands info -->
 
-              <div class="col-12 col-lg-8">
+              <div class="col-12 col-xl-8">
                 <h4 class="fs-4">Apple Brands</h4>
                 <p class="my-3">As smart as the Galaxy Watches or Apple Watches of this world Lorem, ipsum.but for what it is and is capable of, it is a pretty solid device.</p>
               </div>
@@ -150,6 +154,204 @@
 
       </div>
     </section>
+
+    <section id="shop" class="products my-5">
+      <div class="container py-5 bg-light rounded-3">
+        <h3 class="mb-3 section-heading display-6 fw-semibold text-center">Discover Our Popular Products</h3>
+        <p class="text-center w-75 mx-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum deserunt, eius distinctio ea quo sunt soluta incidunt doloremque facilis ut.</p>
+
+        <div class="container">
+          <div class=" my-4 row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+            <div class="col">
+              <div class="text-center p-3 border wm-product rounded-2">  
+                <img src="./assets/wm-1.png" alt="" class="img-fluid">
+                <h4 class="my-2 fs-3 fw-semibold">Product-1</h4>
+                <div class="d-flex justify-content-evenly">
+                  <div class="rating-box d-flex">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                  </div>
+                  <div class="price-box">
+                    <span class="price fs-5 fw-semibold">$400</span>
+                  </div>
+                </div>
+                <div class="product-btn my-3">
+                  <button class="btn wm-bg-yellow text-white">Add To Curt</button>
+                  <button class="btn wm-bg-blue text-white">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="text-center p-3 border wm-product rounded-2">  
+                <img src="./assets/wm-6.png" alt="" class="img-fluid">
+                <h4 class="my-2 fs-3 fw-semibold">Product-2</h4>
+                <div class="d-flex justify-content-evenly">
+                  <div class="rating-box d-flex">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                  </div>
+                  <div class="price-box">
+                    <span class="price fs-5 fw-semibold">$400</span>
+                  </div>
+                </div>
+                <div class="product-btn my-3">
+                  <button class="btn wm-bg-yellow text-white">Add To Curt</button>
+                  <button class="btn wm-bg-blue text-white">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="text-center p-3 border wm-product rounded-2">  
+                <img src="./assets/wm-1.png" alt="" class="img-fluid">
+                <h4 class="my-2 fs-3 fw-semibold">Product-3</h4>
+                <div class="d-flex justify-content-evenly">
+                  <div class="rating-box d-flex">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                  </div>
+                  <div class="price-box">
+                    <span class="price fs-5 fw-semibold">$400</span>
+                  </div>
+                </div>
+                <div class="product-btn my-3">
+                  <button class="btn wm-bg-yellow text-white">Add To Curt</button>
+                  <button class="btn wm-bg-blue text-white">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="text-center p-3 border wm-product rounded-2">  
+                <img src="./assets/wm-6.png" alt="" class="img-fluid">
+                <h4 class="my-2 fs-3 fw-semibold">Product-4</h4>
+                <div class="d-flex justify-content-evenly">
+                  <div class="rating-box d-flex">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                  </div>
+                  <div class="price-box">
+                    <span class="price fs-5 fw-semibold">$400</span>
+                  </div>
+                </div>
+                <div class="product-btn my-3">
+                  <button class="btn wm-bg-yellow text-white">Add To Curt</button>
+                  <button class="btn wm-bg-blue text-white">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="text-center p-3 border wm-product rounded-2">  
+                <img src="./assets/wm-1.png" alt="" class="img-fluid">
+                <h4 class="my-2 fs-3 fw-semibold">Product-5</h4>
+                <div class="d-flex justify-content-evenly">
+                  <div class="rating-box d-flex">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                  </div>
+                  <div class="price-box">
+                    <span class="price fs-5 fw-semibold">$400</span>
+                  </div>
+                </div>
+                <div class="product-btn my-3">
+                  <button class="btn wm-bg-yellow text-white">Add To Curt</button>
+                  <button class="btn wm-bg-blue text-white">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="text-center p-3 border wm-product rounded-2">  
+                <img src="./assets/wm-6.png" alt="" class="img-fluid">
+                <h4 class="my-2 fs-3 fw-semibold">Product-6</h4>
+                <div class="d-flex justify-content-evenly">
+                  <div class="rating-box d-flex">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                    <img src="./assets/icons/star-regular.svg" alt="" class="img-fluid">
+                  </div>
+                  <div class="price-box">
+                    <span class="price fs-5 fw-semibold">$400</span>
+                  </div>
+                </div>
+                <div class="product-btn my-3">
+                  <button class="btn wm-bg-yellow text-white">Add To Curt</button>
+                  <button class="btn wm-bg-blue text-white">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="discont" class="discont my-5">
+      <div class="container my-5 py-5 bg-light rounded-3">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-6">
+
+            <!-- carrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrouseeellllllll -->
+
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/wm-5.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/wm-5.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/wm-5.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev wm-c-bg" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next wm-c-bg" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+          </div>
+          <div class="col-12 col-lg-6">
+            <h3 class="text-primary display-5 fw-semibold text-capitalize">Get 20% off today</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem et unde, assumenda quam neque nihil nobis quod. Soluta nesciunt libero nobis sapiente quod possimus veniam.</p>
+            <button class="btn wm-bg-blue text-white">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- notify section -->
   </main>
   
 
